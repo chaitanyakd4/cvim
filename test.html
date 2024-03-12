@@ -3,30 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript Example</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-    </style>
+    <title>Simple Storage Smart Contract</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+    <div class="container">
+        <h1>Simple Storage Smart Contract</h1>
+        <div>
+            <label for="newValue">New Value:</label>
+            <input type="number" id="newValue">
+            <button onclick="setValue()">Set Value</button>
+        </div>
+        <div>
+            <button onclick="getValue()">Get Value</button>
+            <p id="currentValue">Current Value: </p>
+        </div>
+    </div>
 
-<h1>JavaScript Example</h1>
-
-<button id="myButton">Bhadve!</button>
-<audio id="myAudio">
-    <source src="sound.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-</audio>
-<script src="script.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>
 
