@@ -1,16 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font: Arial, sans-serif;
+    background-color: #a40d0d;
     margin: 0;
-    padding: 0;
+    padding: 10;
     height: 100vh;
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
 }
 
 .container {
-    text-align: center;
+    font:italic;
+    text-align:center;
+    display: block;
 }
 
 h1 {
@@ -19,14 +21,15 @@ h1 {
 
 button {
     padding: 10px 20px;
+    font: lighter;
     font-size: 16px;
     cursor: pointer;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #f0f3f6;
+    color: #077e99;
     border: none;
     border-radius: 5px;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #070707;
 }
